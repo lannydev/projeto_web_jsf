@@ -14,16 +14,19 @@
 				<h:outputLabel value="Nome"/>
 				<h:inputText/>
 				
-				<p:outputLabel value="Teste"></p:outputLabel>
-				<p:inputText></p:inputText>
-				
-				<p:outputLabel value="Teste2"></p:outputLabel>
-				<p:inputText></p:inputText>
-				
 				<h:outputLabel value= "Data de Nascimento"/>
 				<h:inputText/>		
-			</h:panelGrid>
+		</h:panelGrid>
 		<h:commandButton value="Cadastrar"/>
+		
+		<p:panelGrid columns="2">
+			<p:outputLabel value="Nome"/>
+			<p:inputText/>
+			
+			<p:outputLabel value="data de nascimento"/>
+			<p:calendar/>			
+		</p:panelGrid>
+		
 	</h:form>
 </h:body>
 </html>
